@@ -1,8 +1,9 @@
 @charset "utf-8";
 /* CSS Document */
+
 header
 {
-	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(skyline.jpg);
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../Billleder/baggrund.jpg);
 	height: 100vh;
 	background-size: cover;
 	background-position: center
@@ -93,59 +94,13 @@ ul li a:hover:after
  	transform: scaleX(1);
  	transform-origin: right;
 }
-.media
-
-{
-	position: absolute;
-	top: 80%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	font-size: 50%;
 	
-}
-
-.logo
-{	
-	list-style: none;
-	margin: 10px 30px;
-	display: flex;
-	font-size: 20px;
-	padding: 20px 20px;
-	color: white;
 	
-
-}
-
-.info
-{
-	position: absolute;
-	color: white;
-	transform: translate(-50%, -50%);
-	left: 50%;
-	top: 40%;
-	font-size: 22px;
-	font-family: "poiret-one"; 
-	text-decoration: none;
-	text-align: center;
-	font-style: normal;
-	font-weight: 400;	
 	
-}
-
-.socials
-{
-	position: absolute;
-	color: white;
-	transform: translate(-50%, -50%);
-	left: 50%;
-	top: 70%;
-	font-size: 22px;
-	font-family: "poiret-one"; 
-	text-decoration: none;
-	text-align: center;
-	font-style: normal;
-		
 	
-}
-
+	
+	
+	
+	
+	
 	

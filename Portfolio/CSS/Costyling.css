@@ -1,9 +1,8 @@
 @charset "utf-8";
 /* CSS Document */
-
 header
 {
-	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(lysbillede.jpg);
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../Billleder/skyline.jpg);
 	height: 100vh;
 	background-size: cover;
 	background-position: center
@@ -94,115 +93,59 @@ ul li a:hover:after
  	transform: scaleX(1);
  	transform-origin: right;
 }
+.media
 
-
-
-.hvem
 {
 	position: absolute;
-	color: white;
-	transform: translate(-50%, -50%);
+	top: 80%;
 	left: 50%;
-	top: 25%;
-	font-size: 40px;
-	font-family: "poiret-one"; 
+	transform: translate(-50%, -50%);
+	font-size: 50%;
 	
-		
 }
 
-.stud
-{
-	
-	position: absolute;
-	color: white;
-	transform: translate(-50%, -50%);
-	left: 50%;
-	top: 50%;
+.logo
+{	
+	list-style: none;
+	margin: 10px 30px;
+	display: flex;
 	font-size: 20px;
-	font-family: "poiret-one"; 
-	font-weight: 400;
-
-	
-}
-
-
-.information
-{
-	position: absolute;
+	padding: 20px 20px;
 	color: white;
-	transform: translate(-50%, -50%);
-	font-family: "poiret-one";
-	left: 50%;
-	top: 55%;
-	font-size: 20px;	
-}
-
-
-
-.skole
-{
-	position: absolute;
-	color: white;
-	transform: translate(-50%, -50%);
-	font-family: "poiret-one";
-	left: 50%;
-	top: 65%;
-	font-size: 20px;
 	
 
 }
 
-.gym
-{
-	position: absolute;
-	color: white;
-	transform: translate(-50%, -50%);
-	font-family: "poiret-one";
-	left: 50%;
-	top: 60%;
-	font-size: 20px;
-	
-
-}
-.coder
-{
-	position: absolute;
-	color: white;
-	transform: translate(-50%, -50%);
-	left: 40%;
-	top: 40%;
-	font-size: 25px;
-	font-family: "poiret-one"; 
-		
-}
-
-.designer
-{
-	position: absolute;
-	color: white;
-	transform: translate(-50%, -50%);
-	left: 60%;
-	top: 40%;
-	font-size: 25px;
-	font-family: "poiret-one"; 
-	
-}
-
-
-
-.og
+.info
 {
 	position: absolute;
 	color: white;
 	transform: translate(-50%, -50%);
 	left: 50%;
 	top: 40%;
-	font-size: 35px;
-	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif"
+	font-size: 22px;
+	font-family: "poiret-one"; 
+	text-decoration: none;
+	text-align: center;
+	font-style: normal;
+	font-weight: 400;	
 	
-		
 }
 
+.socials
+{
+	position: absolute;
+	color: white;
+	transform: translate(-50%, -50%);
+	left: 50%;
+	top: 70%;
+	font-size: 22px;
+	font-family: "poiret-one"; 
+	text-decoration: none;
+	text-align: center;
+	font-style: normal;
+		
+	
+}
 
-
-
+	

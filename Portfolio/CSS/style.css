@@ -1,9 +1,11 @@
 @charset "utf-8";
 /* CSS Document */
 
+
+
 header
 {
-	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(baggrund.jpg);
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../Billleder/skyline.jpg);
 	height: 100vh;
 	background-size: cover;
 	background-position: center
@@ -11,26 +13,42 @@ header
 
 
 
+#Navn
+{
+	position: absolute;
+	color: white;
+	top: 20%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	font-family: "poiret-one";
+	font-size: 60px;
+	font-style: normal;
+	font-weight: 400;
+}
+
+	
 .hoved-nav li a
 {
 	color: white;
 	text-decoration: none;
 	padding: 5px 20px;
 	font-family: "poiret-one";
-	font-size: 22px; 	
+	font-size: 26px; 	
+	
 }
 
 
 .hoved-nav 
 {
  	position: absolute;
- 	top: 15%;
+ 	top: 50%;
  	left: 50%;
  	transform: translate(-50%,-50%);
  	margin: 0;
 	padding: 0;
  	display: flex;
 	list-style: none;
+	
 }
 
 
@@ -40,11 +58,12 @@ ul li a
  	display: block;
  	padding: 10px 15px;
  	text-align: center;
- 	font-size: 60px;    
+ 	font-size: 16px;
  	color: white;
  	text-transform: uppercase;
  	text-decoration: none;
  	transition: .5s;
+	
 }
 
 
@@ -94,13 +113,15 @@ ul li a:hover:after
  	transform: scaleX(1);
  	transform-origin: right;
 }
-	
-	
-	
-	
-	
-	
-	
-	
-	
+
+
+
+
+
+
+
+
+
+
+
 	
