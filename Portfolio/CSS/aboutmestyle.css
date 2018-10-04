@@ -170,8 +170,8 @@ ul li a:hover:after
 	color: white;
 	transform: translate(-50%, -50%);
 	left: 40%;
-	top: 40%;
-	font-size: 25px;
+	top: 35%;
+	font-size: 30px;
 	font-family: "poiret-one"; 
 		
 }
@@ -182,8 +182,8 @@ ul li a:hover:after
 	color: white;
 	transform: translate(-50%, -50%);
 	left: 60%;
-	top: 40%;
-	font-size: 25px;
+	top: 35%;
+	font-size: 30px;
 	font-family: "poiret-one"; 
 	
 }
@@ -196,8 +196,8 @@ ul li a:hover:after
 	color: white;
 	transform: translate(-50%, -50%);
 	left: 50%;
-	top: 40%;
-	font-size: 35px;
+	top: 38%;
+	font-size: 25px;
 	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif"
 	
 		
