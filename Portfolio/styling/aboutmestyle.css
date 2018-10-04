@@ -3,11 +3,10 @@
 
 header
 {
-	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(baggrund.jpg);
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../billeder/lysbillede.jpg);
 	height: 100vh;
 	background-size: cover;
-	background-position: center;
-	
+	background-position: center
 }
 
 
@@ -95,77 +94,114 @@ ul li a:hover:after
  	transform: scaleX(1);
  	transform-origin: right;
 }
-	
 
 
 
-
-
-* {
-    box-sizing: border-box;
-	
-	
-}
-
-.row {
-    display: flex;
-	position: absolute;
-	top: 60%;
- 	left: 50%;
- 	transform: translate(-50%,-50%);
-}
-
-.column {
-    flex: 100px;
-    padding: 20px;
-}
-
-.billede1
-{
-	height: 350px;
-	width: 350px;
-	opacity: 1;
-}
-.billede2
-{
-	height: 350px;
-	width: 350px;
-	opacity: 0.9;
-}
-
-.billede3
-{
-	height: 350px;
-	width: 350px;
-	opacity: 0.9;
-}
-
-
-
-.info
+.hvem
 {
 	position: absolute;
 	color: white;
 	transform: translate(-50%, -50%);
 	left: 50%;
 	top: 25%;
-	font-size: 36px;
+	font-size: 40px;
 	font-family: "poiret-one"; 
-	text-decoration: none;
-	text-align: center;
-	font-style: normal;
-	font-weight: 400;	
+	
+		
+}
+
+.stud
+{
+	
+	position: absolute;
+	color: white;
+	transform: translate(-50%, -50%);
+	left: 50%;
+	top: 50%;
+	font-size: 20px;
+	font-family: "poiret-one"; 
+	font-weight: 400;
+
+	
+}
+
+
+.information
+{
+	position: absolute;
+	color: white;
+	transform: translate(-50%, -50%);
+	font-family: "poiret-one";
+	left: 50%;
+	top: 55%;
+	font-size: 20px;	
+}
 
 
 
+.skole
+{
+	position: absolute;
+	color: white;
+	transform: translate(-50%, -50%);
+	font-family: "poiret-one";
+	left: 50%;
+	top: 65%;
+	font-size: 20px;
+	
+
+}
+
+.gym
+{
+	position: absolute;
+	color: white;
+	transform: translate(-50%, -50%);
+	font-family: "poiret-one";
+	left: 50%;
+	top: 60%;
+	font-size: 20px;
+	
+
+}
+.coder
+{
+	position: absolute;
+	color: white;
+	transform: translate(-50%, -50%);
+	left: 40%;
+	top: 40%;
+	font-size: 25px;
+	font-family: "poiret-one"; 
+		
+}
+
+.designer
+{
+	position: absolute;
+	color: white;
+	transform: translate(-50%, -50%);
+	left: 60%;
+	top: 40%;
+	font-size: 25px;
+	font-family: "poiret-one"; 
+	
+}
 
 
 
-
-
-
-
-
+.og
+{
+	position: absolute;
+	color: white;
+	transform: translate(-50%, -50%);
+	left: 50%;
+	top: 40%;
+	font-size: 35px;
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif"
+	
+		
+}
 
 
 
