@@ -110,7 +110,7 @@ ul li a:hover:after
 		
 }
 
-.stud
+.skole
 {
 	
 	position: absolute;
@@ -137,20 +137,6 @@ ul li a:hover:after
 	font-size: 20px;	
 }
 
-
-
-.skole
-{
-	position: absolute;
-	color: white;
-	transform: translate(-50%, -50%);
-	font-family: "poiret-one";
-	left: 50%;
-	top: 65%;
-	font-size: 20px;
-	
-
-}
 
 .gym
 {
